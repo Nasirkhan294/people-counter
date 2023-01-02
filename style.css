@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./pic.jpeg) no-repeat center center/cover;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 14rem 32rem;
+  border: 3px solid #ff4500;
+  padding: 30px 0;
+  background-color: bisque;
+}
+
+h1,
+h2 {
+  color: #ff4500;
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+button {
+  padding: 20px 30px;
+  color: #ff4500;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: #ff4500;
+  color: #fff;
+  cursor: pointer;
+}
+
+#save {
+    background-color: #008000;
+    margin-left: 10px;
+}
